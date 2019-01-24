@@ -5,10 +5,11 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="yass-pkg",
-    version="0.0.1",
+    version="0.0.2",
     author="Yacine Badiss",
     author_email="yacine.badiss@gmail.com",
     description="A small example package",
+    scripts=['bin/yass'],
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/YBadiss/python-lib",

@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+
+import yass_pkg
+print(yass_pkg.name)
+
